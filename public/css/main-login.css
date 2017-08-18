@@ -1,0 +1,99 @@
+body {
+    background-image: url(../img/login-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 1330px;
+}
+
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px black inset !important;
+    opacity: 0.8;
+    -webkit-text-fill-color: white;
+}
+
+.row#login {
+    margin-top: 3%;
+}
+
+i.large {
+    border-radius: 50px;
+    background-color: white;
+    opacity: 0.8;
+}
+
+i.large.material-icons.black-text {
+    margin-top: 20px;
+}
+
+form.col.s5.offset-s2 {
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 15px;
+    color: #bec8c6;
+}
+
+.formato-login {
+    margin-bottom: 0px;
+}
+
+.waves-effect.waves-brown .waves-ripple {
+    background-color: rgba(10, 9, 11, 0.65);
+}
+
+.waves-effect .waves-ripple {
+    background: rgba(0, 0, 0, 0.2);
+    /*Modificar efecto al hacer clic al boton*/
+}
+
+
+/*Modificar el color del input, imagen y label*/
+
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+    border-bottom: 1px solid #bec8c6;
+    /*Cambiar color de la barra inferior del input*/
+
+
+
+}
+
+.input-field .prefix~input, .input-field .prefix~textarea, .input-field .prefix~label, .input-field .prefix~.validate~label, .input-field .prefix~.autocomplete-content {
+    color: #bec8c6;
+    /*Cambiar color de label del input*/
+}
+
+.input-field .prefix {
+    color: #bec8c6;
+    /*Cambiar color de la imagen del input*/
+}
+
+
+/*Modificar color de input, label y icono cuando se hace clic en ellos*/
+
+ /*Cambiar color de la imagen del input*/
+.input-field .prefix.active {
+    color: white;  
+}
+
+/*Cambiar color de la barra inferior*/
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid white;
+    box-shadow: 0 1px 0 0 white;
+    color: white;
+}
+
+/*Modificar label cuando se hace clic al input*/
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+input[type=url]:not(.browser-default):focus:not([readonly]) + label,
+input[type=time]:not(.browser-default):focus:not([readonly]) + label,
+input[type=date]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label,
+input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
+input[type=number]:not(.browser-default):focus:not([readonly]) + label,
+input[type=search]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: white;
+}

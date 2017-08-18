@@ -1,0 +1,83 @@
+/*Menu lateral posición */
+
+.side-nav.fixed {
+    transform: translateY(64px);
+    width: 249px;
+}
+
+.nav-user{
+    display: none;
+}
+
+.paddind-user{
+    padding-left: 0;
+}
+
+/*Pie de página*/
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    padding-left: 249px;
+}
+
+
+/*Alinear contenido*/
+
+.row.contenido {
+    padding-left: 250px;
+}
+
+/*Centrar span d e tipo de usuario*/
+span.badge {
+	float: none;
+    display: inline-block;
+}
+
+/*Boton de registro*/
+ .boton-registro{
+	display: block;
+}
+
+/*Alertas materialize*/
+.card-alert button {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    font-size: 20px;
+  
+}
+
+.card .card-content {
+    padding: 20px;
+    border-radius: 0 0 2px 2px;
+}
+
+/*Formulario de busqueda*/
+/*Enfoxado*/
+input[type=search]:not(.browser-default):focus:not([readonly]){
+    border-bottom: 1px solid black !important;
+    box-shadow: 0 1px 0 0 black !important;
+    color: black !important;
+}
+/*Sin enfocar*/
+.input-field input[type=search] {
+    background-color: black;
+    color: white;
+}
+
+/*Tamaño maximo de las imagenes*/
+
+img{
+    height: 300px;
+}
